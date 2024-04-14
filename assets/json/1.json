@@ -1,0 +1,430 @@
+{
+	"categories": [],
+	"store": {
+		"currency": "$",
+		"currencyTranslation": { "ar": "د.أ" },
+		"languages": ["en", "fr", "ar"],
+		"mainLang": "en",
+		"phoneNumber": "+9613574574",
+		"displayedPhoneNumber": "03 574 574",
+		"template": 1,
+		"storeId": 1,
+		"storeLogo": "assets/imgs/moonlight.png",
+		"storeName": "Moonlight",
+		"sm": {
+			"whatsappUrl": "https://api.whatsapp.com/send/?phone=%2B9613574745&text&type=phone_number&app_absent=0",
+			"location": "Ehden , Near Saydet Al Hosn",
+			"locationTranslation": { "ar": "اهدن" },
+			"locationUrl": "https://goo.gl/maps/KHyCns9iBLu6aGkE8",
+			"instagramUrl": "https://www.instagram.com/moonlightehden?igsh=dzk3MjBmdXlyOWh4",
+			"facebookUrl": "hg"
+		},
+		"aboutUs": "Founded in 1989, our family-owned restaurant nestled in the charming town of Ehden is a culinary gem with a rich history and tradition. With deep roots in the local community, we take pride in offering a warm and inviting atmosphere where guests feel like part of the family. From generation to generation, our commitment to excellence shines through in every dish we serve, showcasing the finest flavors of Lebanese cuisine. Step into our restaurant and embark on a gastronomic journey that celebrates our passion for food, family, and tradition. Experience the warmth of Lebanese hospitality and the taste of authentic flavors that have delighted diners for over three decades.",
+		"aboutUsTranslation": {
+			"ar": "تأسس مطعمنا العائلي في عام 1989، وهو مطعم جوهري مطل في بلدة إهدن الساحرة مع تاريخ وتقاليد غنية. مع جذور عميقة في المجتمع المحلي، نحن فخورون بتقديم جو دافئ ومرحب حيث يشعر الضيوف بأنهم جزء من العائلة. من جيل إلى جيل، يتجلى التزامنا بالتميز في كل طبق نقدمه، مع عرض أرقى نكهات المطبخ اللبناني. ادخل مطعمنا وابدأ في رحلة غذائية تحتفي بشغفنا بالطعام والعائلة والتقاليد. اكتشف دفء الضيافة اللبنانية وطعم النكهات الأصيلة التي أسرت الزبائن لأكثر من ثلاثة عقود.",
+			"fr": "Fondé en 1989, notre restaurant familial niché dans la charmante ville d'Ehden est un joyau culinaire avec une histoire et une tradition riches. Avec des racines profondes dans la communauté locale, nous sommes fiers d'offrir une atmosphère chaleureuse et accueillante où les clients se sentent comme faisant partie de la famille. De génération en génération, notre engagement envers l'excellence se reflète dans chaque plat que nous servons, mettant en valeur les saveurs les plus fines de la cuisine libanaise. Entrez dans notre restaurant et embarquez pour un voyage gastronomique qui célèbre notre passion pour la nourriture, la famille et la tradition. Découvrez la chaleur de l'hospitalité libanaise et le goût des saveurs authentiques qui ravissent les convives depuis plus de trois décennies."
+		}
+	},
+	"sub_categories": [
+		{
+			"order": 1,
+			"subCategoryId": 1,
+			"subCategoryLabel": "sandwiches",
+			"subCategoryImg": "assets/icons/sandwiches.png",
+			"subCategoryBackgroundImg": "assets/imgs/sandwish.jpg",
+			"translation": { "fr": "sandwichs", "ar": "السندويشات" }
+		},
+		{
+			"order": 2,
+			"subCategoryId": 2,
+			"subCategoryLabel": "plates",
+			"subCategoryImg": "assets/icons/plates.png",
+			"subCategoryBackgroundImg": "assets/imgs/platers.webp",
+			"translation": { "fr": "assiette", "ar": "أطباق" }
+		},
+		{
+			"order": 3,
+			"subCategoryId": 3,
+			"subCategoryLabel": "pizzas",
+			"subCategoryImg": "assets/icons/pizzas.png",
+			"subCategoryBackgroundImg": "assets/imgs/pizza.jpg",
+			"translation": { "ar": "بيتزا", "fr": "pizzas" }
+		},
+		{
+			"order": 4,
+			"subCategoryId": 4,
+			"subCategoryLabel": "salads",
+			"subCategoryImg": "assets/icons/salads.png",
+			"subCategoryBackgroundImg": "assets/imgs/salad.jpg",
+			"translation": { "ar": "سلطة", "fr": "salades" }
+		},
+		{
+			"order": 5,
+			"subCategoryId": 5,
+			"subCategoryLabel": "fries",
+			"subCategoryImg": "assets/icons/fries.png",
+			"subCategoryBackgroundImg": "",
+			"translation": { "ar": "بطاطس مقلية", "fr": "frites" }
+		},
+		{
+			"order": 6,
+			"subCategoryId": 6,
+			"subCategoryLabel": "desserts",
+			"subCategoryImg": "assets/icons/cake.png",
+			"subCategoryBackgroundImg": "assets/imgs/tiramissu.jpg",
+			"translation": { "fr": "desserts", "ar": "الحلويات" }
+		},
+		{
+			"order": 7,
+			"subCategoryId": 7,
+			"subCategoryLabel": "dips",
+			"subCategoryImg": "assets/icons/dips.png",
+			"subCategoryBackgroundImg": "assets/imgs/dips.jpg",
+			"translation": { "ar": "صلصة", "fr": "trempettes" }
+		},
+		{
+			"order": 8,
+			"subCategoryId": 8,
+			"subCategoryLabel": "drinks",
+			"translation": { "fr": "boissons", "ar": "مشروبات" },
+			"subCategoryImg": "assets/icons/drinks.png",
+			"subCategoryBackgroundImg": "assets/imgs/sandwish.jpg"
+		}
+	],
+	"items": [
+		{
+			"itemLabel": "Hamburger",
+			"itemDescription": "Beef patty, sauce, coleslow, tomatoes, pickles",
+			"price": 10,
+			"itemId": 1,
+			"order": 1,
+			"isNew": true,
+			"isStarred": true,
+			"subCategoryId": 1,
+			"translation": { "ar": "همبرغر", "fr": "hamburger" },
+			"itemDescriptionTranslation": {
+				"fr": "Galette de boeuf, sauce, coleslow, tomates, cornichons",
+				"ar": "شريحة لحم بقري، صوص، كول سلو، طماطم، مخلل"
+			}
+		},
+		{
+			"itemLabel": "Cheese Burger",
+			"itemDescription": "Beef patty, Cheese, sauce, coleslow, tomatoes, pickles",
+			"price": 1,
+			"itemId": 2,
+			"order": 2,
+			"isStarred": true,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Double Cheese Burger",
+			"itemDescription": "2 Beef patty, 2 Cheese, sauce, coleslow, tomatoes, pickles",
+			"price": 10,
+			"itemId": 3,
+			"isNew": true,
+			"order": 3,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Zoro Burger",
+			"itemDescription": "Beef patty, Cheese, ham, sauce, coleslow, tomatoes, pickles",
+			"price": 10,
+			"isStarred": true,
+			"itemId": 4,
+			"order": 4,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Chiken Breast Burger",
+			"itemDescription": "Grilled chicken, fries, garlic, mayo, lettuce, pickles",
+			"price": 10,
+			"itemId": 5,
+			"order": 5,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Crispy Chiken Burger",
+			"itemDescription": "Crispy chicken, cheese, fries, garlic, mayo, lettuce, pickles",
+			"price": 10,
+			"itemId": 6,
+			"isNew": true,
+			"order": 6,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Steak & Cheese",
+			"itemDescription": "Steak, cheese, mushrooms, mayo, lettuce, pickles",
+			"price": 10,
+			"itemId": 7,
+			"isNew": true,
+			"order": 7,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Chiken Fajitas",
+			"itemDescription": "Grilled chicken, cheese, mushrooms, onions, peppers, soy sauce, mayo, lettuce, pickles",
+			"price": 10,
+			"itemId": 8,
+			"order": 8,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Philadelphia Steak",
+			"itemDescription": "Steak, cheese, mushrooms, onions, peppers, soy sauce, mayo, lettuce, pickles",
+			"price": 10,
+			"itemId": 9,
+			"isStarred": true,
+			"order": 9,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Tawook",
+			"itemDescription": "Grilled Tawouk, fries, mayo, lettuce, pickles",
+			"price": 10,
+			"isStarred": true,
+			"itemId": 10,
+			"order": 10,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Sujuk",
+			"itemDescription": "Sujuk, mayo, lettuce, tomatoes, pickles",
+			"price": 10,
+			"itemId": 11,
+			"order": 11,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Cheese Sujuk",
+			"itemDescription": "Sujuk, cheese, mayo, lettuce, tomatoes, pickles",
+			"price": 10,
+			"itemId": 12,
+			"order": 12,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Submarine",
+			"itemDescription": "Cheese, ham, salami, mayo, mustard, tomatoes, lettuce, pickles",
+			"price": 10,
+			"itemId": 13,
+			"order": 13,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Hot Dog",
+			"itemDescription": "Hot dog, ketchup, mayo, mustard, tomatoes, lettuce, pickles",
+			"price": 10,
+			"itemId": 14,
+			"order": 14,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Tuna Fish",
+			"itemDescription": "Tuna, mayo, mustard, lettuce, tomatoes, pickles",
+			"price": 10,
+			"itemId": 15,
+			"order": 15,
+			"subCategoryId": 1
+		},
+		{
+			"itemLabel": "Chiken Tenders",
+			"itemDescription": "5 pieces of crispy chicken, served with coleslaw, fries and garlic mayo dip",
+			"price": 10,
+			"itemId": 16,
+			"order": 16,
+			"subCategoryId": 2
+		},
+		{
+			"itemLabel": "Chiken Fajitas Plate",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 17,
+			"order": 17,
+			"subCategoryId": 2
+		},
+		{
+			"itemLabel": "Hamburger Plate",
+			"itemDescription": "2 Beef patties served with coleslaw, fries and one burger bun",
+			"price": 10,
+			"itemId": 18,
+			"order": 18,
+			"subCategoryId": 2
+		},
+		{
+			"itemLabel": "Cheese Burger Plate",
+			"itemDescription": "2 Beef patties with cheese served with coleslaw, fries and one burger bun",
+			"price": 10,
+			"itemId": 19,
+			"order": 19,
+			"subCategoryId": 2
+		},
+		{
+			"itemLabel": "Chiken Breast Burger Plate",
+			"itemDescription": "2 Grilled chicken served with coleslaw, fries, garlic mayo dip and one burger bun",
+			"price": 10,
+			"itemId": 20,
+			"order": 20,
+			"subCategoryId": 2
+		},
+		{
+			"itemLabel": "Tawouk Plate",
+			"itemDescription": "Grilled tawouk served with coleslaw, fries, garlic mayo dip and lebanese bread",
+			"price": 10,
+			"itemId": 21,
+			"order": 21,
+			"subCategoryId": 2
+		},
+		{
+			"itemLabel": "Pizza Peperoni",
+			"itemDescription": "Pepperoni, cheese, mushrooms, sauce",
+			"price": 10,
+			"itemId": 22,
+			"order": 22,
+			"subCategoryId": 3
+		},
+		{
+			"itemLabel": "Pizza Chiken",
+			"itemDescription": "Chicken, cheese, mushrooms, sauce",
+			"price": 10,
+			"itemId": 23,
+			"order": 23,
+			"subCategoryId": 3
+		},
+		{
+			"itemLabel": "Pizza Regular",
+			"itemDescription": "Ham, salami, cheese, olives, mushrooms, green pepper, sauce",
+			"price": 10,
+			"itemId": 24,
+			"order": 24,
+			"subCategoryId": 3
+		},
+		{
+			"itemLabel": "Pizza margarita",
+			"itemDescription": "Cheese, sauce",
+			"price": 10,
+			"itemId": 25,
+			"order": 25,
+			"subCategoryId": 3
+		},
+		{
+			"itemLabel": "Pizza Vegetarian",
+			"itemDescription": "Cheese, mushrooms, corn, green pepper, olives, sauce",
+			"price": 10,
+			"itemId": 26,
+			"order": 26,
+			"subCategoryId": 3
+		},
+		{
+			"itemLabel": "Pizza Tuna",
+			"itemDescription": "Tuna, mushrooms, tomatoes, green pepper, onions, sauce",
+			"price": 10,
+			"itemId": 27,
+			"order": 27,
+			"subCategoryId": 3
+		},
+		{
+			"itemLabel": "Mixed Salad",
+			"itemDescription": "Lettuce, tomatoes,cucumbers, palmitos, artichokes, corn, asparagus",
+			"price": 10,
+			"itemId": 28,
+			"order": 28,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Chef Salad",
+			"itemDescription": "Lettuce, tomatoes, cucumbers, tuna, ham, corn, cheese",
+			"price": 10,
+			"itemId": 29,
+			"order": 29,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Season Salad",
+			"itemDescription": "Lettuce, tomatoes, cucumbers, corn",
+			"price": 10,
+			"itemId": 30,
+			"order": 30,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Rocca Salad",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 31,
+			"order": 31,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Cabbage Salad",
+			"itemDescription": "Cabbage, mayonnaise, corn",
+			"price": 10,
+			"itemId": 32,
+			"order": 32,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Chiken Caesar Salad",
+			"itemDescription": "Iceberg, grilled chicken, croutons, caesar sauce",
+			"price": 10,
+			"itemId": 33,
+			"order": 33,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Crab Salad",
+			"itemDescription": "Crab, lettuce, corn, carrots",
+			"price": 10,
+			"itemId": 34,
+			"order": 34,
+			"subCategoryId": 4
+		},
+		{
+			"itemLabel": "Fries sandwish",
+			"itemDescription": "Fries, coleslaw, pickles, ketchup",
+			"price": 10,
+			"itemId": 35,
+			"order": 35,
+			"subCategoryId": 5
+		},
+		{
+			"itemLabel": "Fries Plate",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 36,
+			"order": 36,
+			"subCategoryId": 5
+		},
+		{
+			"itemLabel": "Fries Box",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 37,
+			"order": 37,
+			"subCategoryId": 5
+		},
+		{
+			"itemLabel": "Chocoba",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 38,
+			"order": 38,
+			"subCategoryId": 6
+		},
+		{
+			"itemLabel": "Cocktail sauce",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 39,
+			"order": 39,
+			"subCategoryId": 7
+		},
+		{
+			"itemLabel": "Garlic mayo",
+			"itemDescription": "",
+			"price": 10,
+			"itemId": 40,
+			"order": 40,
+			"subCategoryId": 7
+		}
+	]
+}
